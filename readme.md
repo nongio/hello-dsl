@@ -4,8 +4,8 @@ a playground to try to parse a syntax similar to swiftui and produce imperative 
 given the input:
 ```
 Flexbox("root")
-            .justify_elements(center)
-            .align_element(center)
+    .justify_elements(center)
+    .align_element(center)
 {
     Layer("background")
         .background(red)
